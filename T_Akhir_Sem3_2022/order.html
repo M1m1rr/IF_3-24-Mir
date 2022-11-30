@@ -1,0 +1,105 @@
+<html>
+<title> Modulo D'ordine </title>
+<div id="form">
+<head>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a href="index.html">
+  <button type="button" class="btn btn-default btn-sm" style="margin-top: 20px; margin-left: 10px;">
+    <span class="glyphicon glyphicon-chevron-left"></span>Kembali ke Halaman Utama
+  </button></a>
+  <div class="formh2"><h2 align=center><b>Form Pemesanan</b></h2></div>
+ <form method="get">
+  <hr>
+  <p>
+  <label>Nama Pembeli
+  <input type="text" name="customer_name" required>
+  </label>
+  </p>
+
+  <p>
+  <label>No. Telepon
+  <input type="tel" name="phone_number">
+  </label>
+  </p>
+
+  <p>
+  <label>Alamat Email
+  <input type="email" name="email_address">
+  </label>
+  </p>
+  
+  <p>
+  <label>Jenis Instrumen</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> String</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Brass</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Woodwind</label>
+  
+  </p>
+
+  <p>
+  <label>Nama Instrumen
+  <input type="text" name="warna">
+  </label>
+  </p>
+
+  <label>Jumlah Instrumen Yang Dibeli <input type="text" name="jumlah"></label></p>
+
+  <fieldset>
+  <label>Tambahan Pengiriman</label>  
+  <p><label> <input type="checkbox" name="extras" value="baby"> Dus Saja Tanpa Plastik </label></p>
+  <p><label> <input type="checkbox" name="extras" value="wheelcair"> Dus & plastik </label></p>
+  <p><label> <input type="checkbox" name="extras" value="tip"> Double Plastik Saja </label></p>
+   <p><label> <input type="checkbox" name="extras" value="tip"> Dus & Plastik Wrap </label></p>
+  </fieldset>
+
+  <p>
+  <label>Tanggal/Waktu Pengambilan
+  <input type="datetime-local" name="pickup_time" required>
+  </label>
+  </p>
+
+  <p>
+  <label>Tempat Pengambilan Barang
+  <select id="tempat_pengambilan" name="tempat_pengambilan">
+  <option value="" selected="selected">Pilih Satu</option>
+  <option value="Rumah"> Rumah</option>
+  <option value="Kantor"> Kantor</option>
+  <option value="Toko Penjual"> Toko Penjual</option>
+  </select>
+  </label>
+  </p>
+
+  <p>
+  <label> Tempat Dropoff
+  <input type="text" name="tempat_dropoff" required list="tujuan">
+  </label>
+  
+  <datalist id="Tujuan">
+  <option value="Airport">
+  <option value="Pelabuhan">
+  <option value="Rumah/Kantor">
+  </datalist>
+  </p>
+
+  <p>
+  <label>Pesan Kepada Penjual
+  <textarea name="comments" maxlength="a500"></textarea>
+  </label>
+  </p>
+
+  <p style="color:purple; border-color: #ebdaba;"><button style="margin-bottom: 20px; width: 300px;">Buat Pesanan</button></p>
+
+  </form>
+
+  <p style="text-align: right;"><img src="assets/img/order_payments.png" height="30px"></p>
+</body>
+</div>
+</head>
+</html>

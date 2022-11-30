@@ -1,0 +1,14 @@
+Headerimg: https://wallpaperaccess.com/full/1487819.jpg
+containerbawah_string : https://www.kennedy-center.org/globalassets/education/resources-for-educators/classroom-resources/artsedge/lesson/3-5/string-instruments-and-pitch/strings.jpg
+containerbawah_brass : https://i.pinimg.com/originals/a3/62/13/a3621322680fde642826d1d09f54efb5.jpg
+containerbawah_woodwind : https://wallpapercave.com/wp/wp4135056.jpg
+
+news_string : https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmDMNhl84_8q1pgxVubt9soRcEW2fu3wqWeg&usqp=CAU
+news_brass : https://kids.kiddle.co/images/thumb/5/5d/Trumpets02262006.jpg/300px-Trumpets02262006.jpg
+news_woodwind : https://teds-list.com/wp-content/uploads/2020/12/Instruments-in-the-woodwind-family.jpeg
+news_accessories : https://www.stringemporium.com/images/cello-cases.jpg
+
+gallery0 : https://c1.wallpaperflare.com/preview/32/376/1005/orchestra-performance-concert-people.jpg
+gallery1 : https://p4.wallpaperbetter.com/wallpaper/959/896/848/london-philharmonic-orchestra-scene-show-play-wallpaper-preview.jpg
+gallery2 : https://music.northwestern.edu/sites/default/files/2022-02/apr16_nuso_web.jpg
+gallery3 : https://finearts-music.unimelb.edu.au/__data/assets/image/0029/127586/MCM-7_resize.jpg
