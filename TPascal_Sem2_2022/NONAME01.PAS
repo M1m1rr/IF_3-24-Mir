@@ -1,4 +1,4 @@
-Program Pass;
+Program KKM;
 uses crt;
 var NS : String;
 var UH1,UH2,NT : Integer;
