@@ -7,16 +7,18 @@ buah = input('Buah apa : ')
 
 if (buah == 'apel'):
  harga = 6500
-if (buah == 'semangka'):
+elif (buah == 'semangka'):
  harga = 7500
-if (buah == 'alpukat'):
+elif (buah == 'alpukat'):
  harga = 4500
-if (buah == 'jambu'):
+elif (buah == 'jambu'):
  harga = 5500
-if (buah == 'melon'):
+elif (buah == 'melon'):
  harga = 10500
-if (buah == 'pisang'):
+elif (buah == 'pisang'):
  harga = 5000
+else :
+    print('Invalid')
 
 print('Harga per kg : ', harga)
 
@@ -24,9 +26,10 @@ jml = input('Berapa kg : ')
 
 total = int(jml)*int(harga)
 print('Totalnya : ', int(total))
-    
+
 if total <= 47500:
     print('Anda tidak mendapatkan diskon')
+    total1 = total
     
 if total >= 50000:
     diskon = (int(total)/100)*5
@@ -34,11 +37,14 @@ if total >= 50000:
     total1 = int(total)-int(diskon)
     print('Total harga : ', total1)
     
+    
 if total >= 100000:
     diskon = (int(total)/100)*20
     print('Anda mendapat diskon 20% sebesar : ', diskon)
     total1 = int(total)-int(diskon)
     print('Total harga : ', total1)
+    
+    
     
 uangmu = int(input('Uangmu berapa : '))
 kembalian = int(uangmu)-int(total1)
