@@ -38,6 +38,7 @@ elif input_keahlian == 'D':
     print('Total Biaya Kursus Yang Harus Dibayar = ', total)
 else :
     print('Invalid') 
+    quit()
 
 saldo = int(input('Uang Pembayaran Anda = Rp '))
 if saldo == total:
